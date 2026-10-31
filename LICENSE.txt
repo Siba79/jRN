@@ -1,0 +1,19 @@
+jRN - JS Renamer  -  Freeware License
+Copyright (c) 2026 Stefan Karlsson (Gazeomatic). All rights reserved.
+
+1. jRN is freeware. You may use it free of charge, at home and at work.
+2. You may share the unmodified release zip, as long as it stays free of charge.
+3. You may not sell jRN, include it in paid products, or distribute modified versions.
+4. You may not decompile, disassemble or reverse engineer jRN.
+5. jRN is provided "as is", without warranty of any kind. Use it at your own risk.
+   Always check the New Name preview before you click Rename.
+
+Donations are welcome but never required:  https://paypal.me/gazeomatic
+Project page:  https://github.com/Siba79/jRN
+
+Third-party components included in jRN.exe:
+  - Python                      (PSF License)
+  - Tcl/Tk                      (BSD-style license)
+  - Duktape / dukpy             (MIT License)
+  - Pillow                      (MIT-CMU License)
+  - pywin32                     (PSF License)
