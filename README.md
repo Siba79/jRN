@@ -1,4 +1,4 @@
-# jRN - JS Renamer
+# jRN - JS Renamer - JavaScript Renamer
 
 **Free, portable bulk file renamer for Windows, with JavaScript renaming.**
 
