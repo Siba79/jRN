@@ -4,9 +4,9 @@
 
 Made by **Stefan Karlsson** · *Gazeomatic*
 
-[![Download](https://img.shields.io/github/v/release/Siba79/jRN?label=Download&color=2563eb)](https://github.com/Siba79/jRN/releases/latest)
-[![Donate with PayPal](https://img.shields.io/badge/Donate-PayPal-FFC439?logo=paypal&logoColor=003087)](https://paypal.me/gazeomatic)
-![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-0d9488)
+[![Download](https://img.shields.io/github/v/release/Siba79/jRN?label=Download&color=2563eb)](https://github.com/Siba79/jRN/releases/latest)\
+[![Donate with PayPal](https://img.shields.io/badge/Donate-PayPal-FFC439?logo=paypal&logoColor=003087)](https://paypal.me/gazeomatic)\
+![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-0d9488)\
 ![Freeware](https://img.shields.io/badge/License-Freeware-6b7280)
 
 ![jRN main window](docs/jrn_main.png)
@@ -45,6 +45,9 @@ jRN is freeware. If it saves you time, a donation is much appreciated:
 See `LICENSE.txt` for the terms.
 
 ## Version history
+
+### 1.1.1
+- The jRN icon now shows next to 'Open in jRN' in the Explorer right-click menu
 
 ### 1.1.0
 - Freeware release: compiled, portable build (settings stay in `jRN_data` next to `jRN.exe`)
