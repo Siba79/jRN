@@ -24,6 +24,8 @@ The only optional system change is the Explorer menu (see below), and you can re
 
 ## Features
 - **Rules:** RegEx, Name, Replace, Case, Remove, Add, Append folder name, Numbering, Extension.
+- **Rename files or folders:** tick *Rename folders* to rename folders (with all subfolders if you like).
+- **Browse in the list:** Back, Forward and Up buttons, double-click a folder to open it.
 - **JavaScript renaming** in the same style as Bulk Rename Utility: `fileProperty()`, `filePropertyNum()`, `counter`, `newName`, `object("folder")`, `padNum()` and more.
 - Reads any Windows file property: image width/height, date taken, camera, music tags and more.
 - Live preview. Red rows show problems such as duplicate names, files that already exist or invalid characters.
@@ -32,10 +34,10 @@ The only optional system change is the Explorer menu (see below), and you can re
 
 ## Example script
 ```js
-// HDR_<folder>_<longest side>_001.jpg
+// HDR_<folder>_001_<longest side>px.jpg   e.g. HDR_Beard_001_4096px.jpg
 var w = filePropertyNum('System.Image.HorizontalSize');
 var h = filePropertyNum('System.Image.VerticalSize');
-newName = "HDR_" + folderName + "_" + Math.max(w, h) + "_" + padNum(counter, 3);
+newName = "HDR_" + folderName + "_" + padNum(counter, 3) + "_" + Math.max(w, h) + "px";
 ```
 
 ## Support
@@ -45,6 +47,30 @@ jRN is freeware. If it saves you time, a donation is much appreciated:
 See `LICENSE.txt` for the terms.
 
 ## Version history
+
+### 1.2.2
+- New default script: `HDR_<folder>_<number>_<longest side>px`, e.g. `HDR_Beard_001_4096px.jpg`
+
+### 1.2.1
+- Fixed: JavaScript renaming in the compiled release (a dukpy runtime file was missing)
+- Wider Modified column
+
+### 1.2.0
+- **Rename folders** mode: a checkbox that switches the list from files to folders.
+  All rules and JavaScript work on folder names, and a folder plus its subfolders can be renamed in one go
+- Navigation in the file list: Back, Forward and Up buttons, double-click a folder to open it
+  (Alt+Left / Alt+Right / Backspace)
+- Undo also works for folder renames
+
+### 1.1.3
+- Fixed: 'Open in jRN' in the Explorer right-click menu now starts jRN (the menu pointed to a wrong path)
+- The window always ends above the taskbar
+- Help > Open log file
+
+### 1.1.2
+- 'Open in jRN' from Explorer always opens jRN, even if an old jRN process is stuck in the background
+- An already open jRN window now comes to the front reliably
+- Problems are written to `jRN_data\jrn.log`
 
 ### 1.1.1
 - The jRN icon now shows next to 'Open in jRN' in the Explorer right-click menu
