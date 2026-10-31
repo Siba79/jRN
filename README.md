@@ -1,6 +1,6 @@
 # jRN - JS Renamer
 
-**Free, portable bulk file renamer for Windows, with BRU-style JavaScript renaming.**
+**Free, portable bulk file renamer for Windows, with JavaScript renaming.**
 
 Made by **Stefan Karlsson** · *Gazeomatic*
 
